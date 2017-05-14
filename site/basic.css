@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*Define the body element's color*/
+body {
+    background: #141414;
+    font-family: arial, sans-serif;
+    color: #7300e6;
+    text-align: center;
+}
+
+/*This section is for links*/
+a:link {font-weight:normal; color:Navy
+}
+a:visited {font-weight:normal; color:Green;
+}
+a:hover {
+    font-weight:bold; color: Red; font-variant:small-caps;
+}
+
+p {
+    font-size:18px;
+}
+
+/*This section is for the image's black border.*/
+img {
+    border-color: #000000;
+    border:thick;
+    border-style:ridge;
+}
+
+h1 {
+    font-size: 128pt;
+}
+
+.headers {
+    line-height: 0.1;
+    text-shadow: 15px 13px 0px rgba(255,255,255,0.1);
+}
+
+div.headers {
+    margin: 100px;
+}
+
+div.bodyText {
+    margin: 200px;
+}
+
+.boringText {
+    font-size: 12px;
+    opacity: 0.7;
+}
